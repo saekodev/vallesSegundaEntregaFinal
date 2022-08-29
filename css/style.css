@@ -24,15 +24,10 @@ font-family: 'Silkscreen', cursive; */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* animation-name: headerColor;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-delay: 1s; */
 }
 .header img {
   width: 180px;
   padding: 20px;
-  /* transform: translate(90px, 10px); */
 }
 .header img:hover {
   transform: scale(1.1, 1.1);
@@ -103,8 +98,6 @@ section {
 p {
   margin: 10px;
   padding: 10px;
-  /* text-align: justify;
-  justify-content: center; */
 }
 a {
   text-decoration: none;
@@ -146,18 +139,7 @@ a {
   margin: 10px;
   padding: 10px;
 }
-.formularioMesa form {
-  display: flex;
-  align-items: flex-start;
-  margin: 10px;
-  padding: 20px;
-  flex-direction: column;
-}
-input:focus {
-  border-radius: 10px;
-  background-color: #d7dde9;
-  transition: 0.5s;
-}
+
 .infoMesa {
   display: flex;
   align-items: flex-start;
@@ -192,8 +174,6 @@ input:focus {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  /* align-items: center;
-  justify-items: center; */
   text-align: center;
   justify-content: space-around;
   column-gap: 30px;
@@ -232,10 +212,7 @@ input:focus {
   max-width: 300px;
 }
 
-.gridbst {
-  border: solid black 3px;
-}
-
+/* Eventos */
 .spanEventos {
   margin: 10px;
   padding: 10px;
@@ -246,9 +223,37 @@ input:focus {
   background-color: #00f2fe;
 }
 
+/* Contacto */
 .selectorContacto {
   margin: 10px;
   padding: 10px;
+}
+.formularioMesa form {
+  display: flex;
+  align-items: flex-start;
+  margin: 10px;
+  padding: 20px;
+  flex-direction: column;
+}
+input[type=text]{
+  text-align: center;
+  border-radius: 10px;
+}
+input[type=date]{
+  text-align: center;
+  border-radius: 10px;
+}
+input[type=email]{
+  text-align: center;
+  border-radius: 10px;
+}
+textarea {
+  text-align: center;
+  border-radius: 10px;
+}
+input[type=text]:focus {
+  background-color: #d7dde9;
+  transition: 0.5s;
 }
 
 .contactoAccordion {
@@ -264,15 +269,15 @@ input:focus {
 @keyframes headerColor {
   0% {
     background-color: #a3b0e4;
-    /* transition: 1s; */
+    transition: 1s;
   }
   50% {
     background-color: #7c3ba1;
-    /* transition: 1s; */
+    transition: 1s;
   }
   100% {
     background-color: #8c1ef3;
-    /* transition: 1s; */
+    transition: 1s;
   }
 }
 
@@ -310,7 +315,6 @@ input:focus {
   .navbarBusqueda {
     display: none;
   }
-
   form {
     display: none;
   }
