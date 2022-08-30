@@ -258,6 +258,18 @@ input[type=text]:focus {
   background-color: #d7dde9;
   transition: 0.5s;
 }
+input[type=date]:focus {
+  background-color: #d7dde9;
+  transition: 0.5s;
+}
+input[type=email]:focus {
+  background-color: #d7dde9;
+  transition: 0.5s;
+}
+textarea:focus {
+  background-color: #d7dde9;
+  transition: 0.5s;
+}
 
 .contactoAccordion {
   margin: 10px;
