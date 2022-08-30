@@ -218,6 +218,9 @@ a {
   padding: 10px;
   border: dashed black 2px;
 }
+.tablaTitulos{
+  text-align: center;
+}
 .tablaEventos {
   border: double black 2px;
   background-color: #00f2fe;
